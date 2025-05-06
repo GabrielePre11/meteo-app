@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@theme {
+  /* Breakpoints */
+  --breakpoint-xs: 320px;
+
+  /* Typography */
+  --font-cal-sans: "Cal Sans", sans-serif;
+  --font-lexend: "Lexend", sans-serif;
+}
+
+@layer base {
+  body {
+    overflow-x: hidden;
+    /* Background: uiGradients */
+    background: #000000;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  a,
+  span,
+  input,
+  button {
+    display: block;
+  }
+
+  input,
+  button {
+    background: none;
+    border: none;
+  }
+
+  img {
+    height: auto;
+    width: 100%;
+  }
+}
+
+@layer components {
+  li {
+    @apply font-cal-sans text-amber-50 p-2 md:p-3 border border-white/20 rounded-xl
+  }
+}
