@@ -1,4 +1,4 @@
-# 📝 Meteo / Weather App
+# ☀️ Meteo / Weather App
 
 Una semplice App Meteo creata in **React**, **TypeScript** e **Tailwind CSS** v4. Questo progetto mi ha messo a dura prova, ma mi ha permesso di migliorare ancora di più le mie competenze in React, TypeScript e TailwindCSS. Le API sono fornite da [OpenWeatherMap](https://openweathermap.org/).
 
