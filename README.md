@@ -11,6 +11,8 @@ Una semplice App Meteo creata in **React**, **TypeScript** e **Tailwind CSS** v4
 - 🧭 Pressione in hPA
 - 🌫️ Visibilità in km
 
+- 🇮🇹 La città di default è Roma, e le città possono essere cercate in tutte le lingue (ex. Rome - Florence - Stuttgart)
+
 ## Tecnologie utilizzate
 
 - [React](https://react.dev/)
